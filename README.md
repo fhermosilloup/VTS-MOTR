@@ -14,7 +14,43 @@ Once downloaded, place the checkpoint file inside the following directory:
 ```text
 checkpoints/
 ```
+## Installation (from [MOTR/README.md](https://github.com/megvii-research/MOTR/blob/motr_bdd100k/README.md))
 
+The codebase is built on top of [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR).
+
+### Requirements
+
+* Linux, CUDA>=9.2, GCC>=5.4
+  
+* Python>=3.7
+
+    We recommend you to use Anaconda to create a conda environment:
+    ```bash
+    conda create -n deformable_detr python=3.7 pip
+    ```
+    Then, activate the environment:
+    ```bash
+    conda activate deformable_detr
+    ```
+  
+* PyTorch>=1.5.1, torchvision>=0.6.1 (following instructions [here](https://pytorch.org/))
+
+    For example, if your CUDA version is 9.2, you could install pytorch and torchvision as following:
+    ```bash
+    conda install pytorch=1.5.1 torchvision=0.6.1 cudatoolkit=9.2 -c pytorch
+    ```
+  
+* Other requirements
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+* Build MultiScaleDeformableAttention
+    ```bash
+    cd ./models/ops
+    sh ./make.sh
+    ```
+    
 ## Datasets
 
 ### UA-DETRAC Benchmark
