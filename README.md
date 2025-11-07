@@ -32,25 +32,25 @@ If you use this dataset in your research, please cite the above paper.
 
 After downloading and extracting the dataset, the images must be organized into the following directory structure for the model to correctly access the training and validation sequences:
 
----
+```text
 datasets/
 └── DETRAC-MOT/
-├── train/
-│ ├── MVI_XXXXXX/
-│ │ └── img/
-│ │ ├── img000001.jpg
-│ │ ├── img000002.jpg
-│ │ └── ...
-│ └── ...
-│
-└── val/
-├── MVI_XXXXXX/
-│ └── img/
-│ ├── img000001.jpg
-│ ├── img000002.jpg
-│ └── ...
-└── ...
----
+    ├── train/
+    │   ├── MVI_XXXXXX/
+    │   │   └── img/
+    │   │       ├── img000001.jpg
+    │   │       ├── img000002.jpg
+    │   │       └── ...
+    │   └── ...
+    │
+    └── val/
+        ├── MVI_XXXXXX/
+        │   └── img/
+        │       ├── img000001.jpg
+        │       ├── img000002.jpg
+        │       └── ...
+        └── ...
+```
 
 Make sure to **move all downloaded image sequences** into their respective folders under:
 
