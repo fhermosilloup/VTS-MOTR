@@ -11,11 +11,8 @@ This repository contains the **source code and experimental setup** for the pape
 All experiments in this work are conducted using the **UA-DETRAC** dataset, a widely used benchmark for **multi-object detection and tracking** in vehicle traffic surveillance.
 
 **Download Dataset:**  
-The dataset required for training and evaluation can be downloaded from the following Google Drive link:  
-[UA-DETRAC Dataset (Google Drive)](https://drive.google.com/file/d/1fQC6CEWOeL9pnJ4ZdD7U2gromcnWDRgm/view)
-
-**Official Project Page:**  
-[UA-DETRAC Benchmark – Official Site](https://sites.google.com/view/daweidu/projects/ua-detrac?authuser=0)
+- The dataset required for training and evaluation can be downloaded from the following Google Drive link:  [UA-DETRAC Dataset (Google Drive)](https://drive.google.com/file/d/1fQC6CEWOeL9pnJ4ZdD7U2gromcnWDRgm/view)
+- **Official Project Page:**  [UA-DETRAC Benchmark – Official Site](https://sites.google.com/view/daweidu/projects/ua-detrac?authuser=0)
 
 ### Dataset Reference
 
@@ -69,8 +66,7 @@ Original paper:
 > *European Conference on Computer Vision (ECCV), 2022.*  
 > [Paper Link (ECCV 2022)](https://arxiv.org/abs/2105.03247)
 
-Official repository:  
-🔗 [https://github.com/megvii-research/MOTR](https://github.com/megvii-research/MOTR)
+Official repository: [https://github.com/megvii-research/MOTR](https://github.com/megvii-research/MOTR)
 
 Our Transformer-based multi-task model extends and adapts the **MOTR** framework to vehicle traffic surveillance scenarios, integrating additional heads for **vehicle classification** and **occlusion detection**, and optimizing the architecture for multi-view VTS channels.
 
@@ -87,3 +83,4 @@ If you use this repository in your research, please consider citing both works.
   booktitle = {European Conference on Computer Vision (ECCV)},
   year      = {2022}
 }
+```
