@@ -114,7 +114,7 @@ Original paper:
 
 Official repository: [MOTR](https://github.com/megvii-research/MOTR)
 
-Our Transformer-based multi-task model extends and adapts the **MOTR** framework to vehicle traffic surveillance scenarios, integrating additional heads for **vehicle classification** and **occlusion detection**, and optimizing the architecture for multi-view VTS channels.
+Our Transformer-based multi-task model extends the **MOTR** framework to vehicle traffic surveillance scenarios.
 
 If you use this repository in your research, please consider citing both works.
 
