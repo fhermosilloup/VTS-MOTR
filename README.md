@@ -71,8 +71,6 @@ Our Transformer-based multi-task model extends and adapts the **MOTR** framework
 
 If you use this repository in your research, please consider citing both works.
 
----
-
 ### Citation
 
 ```bibtex
