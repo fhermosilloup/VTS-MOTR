@@ -23,8 +23,6 @@ All experiments in this work are conducted using the **UA-DETRAC** dataset, a wi
 
 If you use this dataset in your research, please cite the above paper.
 
----
-
 ### Dataset Organization
 
 After downloading and extracting the dataset, the images must be organized into the following directory structure for the model to correctly access the training and validation sequences:
@@ -55,6 +53,7 @@ Make sure to **move all downloaded image sequences** into their respective folde
 - `datasets/DETRAC-MOT/val/MVI_XXXXX/img/`
 
 The annotation files (bounding boxes and tracking information) are located into their corresponding video path `datasets/DETRAC-MOT/val/MVI_XXXXX/gt/gt.txt`.
+---
 
 ## References and Code Acknowledgment
 
