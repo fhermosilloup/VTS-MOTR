@@ -7,7 +7,7 @@ This repository contains the **source code and experimental setup** for the pape
 ## Model Checkpoint
 
 The pretrained model checkpoint can be downloaded from the following link:
-[**Model**](https://link-al-checkpoint.com)
+[**Model**](https://drive.google.com/file/d/1xwiUZqFWHZt2kIhCeRbSgCA0ygbolDxa/view?usp=sharing)
 
 Once downloaded, place the checkpoint file inside the following directory:
 
