@@ -4,6 +4,17 @@ This repository contains the **source code and experimental setup** for the pape
 > **"A Transformer-Based Multi-Task Learning Model for Vehicle Traffic Surveillance"**  
 > by Fernando Hermosillo-Reynoso *et al.*, 2025  
 
+## Model Checkpoint
+
+The pretrained model checkpoint can be downloaded from the following link:
+[**Model**](https://link-al-checkpoint.com)
+
+Once downloaded, place the checkpoint file inside the following directory:
+
+```text
+checkpoints/
+```
+
 ## Datasets
 
 ### UA-DETRAC Benchmark
