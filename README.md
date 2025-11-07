@@ -53,8 +53,8 @@ Make sure to **move all downloaded image sequences** into their respective folde
 - `datasets/DETRAC-MOT/val/MVI_XXXXX/img/`
 
 The annotation files (bounding boxes and tracking information) are located into their corresponding video path `datasets/DETRAC-MOT/val/MVI_XXXXX/gt/gt.txt`.
----
 
+---
 ## References and Code Acknowledgment
 
 This repository is based on the implementation of **MOTR (End-to-End Multiple-Object Tracking with Transformer)** developed by **MeGVII Research**.
